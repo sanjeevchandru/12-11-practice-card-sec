@@ -1,0 +1,38 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+.container{
+    /* width:85%; */
+    margin: auto;
+}
+.row{
+    padding-top: 5%;
+    display: flex;
+}
+.col{
+    width: 33.33%;
+    padding: 10px;
+}
+.card{
+    background-color: #f3f1ee;
+}
+.card-image img{
+    width:100%;
+}
+h3{
+    font-size: 25px;
+    padding: 0px 20px;
+}
+p{
+    color: #5e5e5e;
+    padding: 20px;
+}
+.card:hover{
+    background-color: #fff;
+    box-shadow: 0 0 10px #ccc;
+}
+.card:hover h3{
+    color: #4eb478;
+}
